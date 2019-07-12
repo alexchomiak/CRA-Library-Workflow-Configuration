@@ -1,3 +1,7 @@
+# About this Project
+This is just a basic create react app with a webpack configuration that compiles anything exposed in the src/lib.js file
+into a javascript library that can be used anywhere
+
 # React Workflow Meant for Library development
 Export any variables/classes you want exposed in the library inside of lib.js,
 then run the command
