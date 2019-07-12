@@ -143,7 +143,7 @@ module.exports = function(webpackEnv) {
             // In development, it does not produce real files.
             filename: LibraryConfig.fileName,
             library: LibraryConfig.libraryName,
-            libraryTarget: LibraryConfig.libraryTarget,
+            libraryTarget: 'var',
             // TODO: remove this when upgrading to webpack 5
             futureEmitAssets: true,
             publicPath: publicPath,
